@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "name": "Project G/R Navy",
+    "price": "350 zł",
+    "category": "Up",
+    "available": false,
+    "has_variations": false,
+    "sizes": ["S", "M", "L"],
+    "images": [
+      "Img/Previews/NavyPreview.png"
+    ],
+    "gallery": [
+      "Img/GRNavy1.jpg",
+      "Img/GRNavy2.jpg",
+      "Img/GRNavy3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Project G/R Interpol",
+    "price": "350 zł",
+    "category": "Up",
+    "available": false,
+    "has_variations": false,
+    "sizes": ["S", "M", "L"],
+    "images": [
+      "Img/Previews/GrInterpolPreview.png"
+    ],
+    "gallery": [
+      "Img/GRInterpol1.jpg",
+      "Img/GRInterpol2.jpg",
+      "Img/GRInterpol3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Project G/R Zygon",
+    "price": "250 zł",
+    "category": "Up",
+    "available": false,
+    "sizes": ["S", "M", "L"],
+    "has_variations": true,
+    "variations": [
+      { "name": "Default", "image": "Img/GRZygon1.jpg" },
+      { "name": "Russia", "image": "Img/Variations/ZygonRussia.jpg" },
+      { "name": "MasterMind", "image": "Img/Variations/ZygonMasterMind.jpg" }
+
+      ],
+    "images": [
+      "Img/Previews/GrZygonPreview.png"
+    ],
+    "gallery": [
+      "Img/GRZygon1.jpg",
+      "Img/GRZygon2.jpg",
+      "Img/GRZygon3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Issey Miyake Ne-net",
+    "price": "200 zł",
+    "category": "Up",
+    "available": false,
+    "has_variations": false,
+    "sizes": ["M"],
+    "images": [
+      "Img/Previews/NeNetPreview.png"
+    ],
+    "gallery": [
+      "Img/NeNet1.jpg",
+      "Img/NeNet2.jpg",
+      "Img/NeNet3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Enfants Riches Deprimes Nun/Gun",
+    "price": "400 zł",
+    "category": "Up",
+    "available": true,
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "Img/Previews/ERDPreview.png"
+    ],
+    "gallery": [
+      "Img/ERD1.jpg",
+      "Img/ERD2.jpg",
+      "Img/ERD3.jpg"
+    ]
+  },
+  {
+      "id": 6,
+      "name": "Chrome Hearts LongSleeve",
+      "price": "200 zł",
+      "category": "Up",
+      "available": false,
+      "sizes": ["S", "M", "L", "XL"],
+      "has_variations": true,
+      "variations": [
+        { "name": "Black", "image": "Img/Variations/CHBlack.jpg" },
+        { "name": "Blue", "image": "Img/Variations/CHBlue.jpg" },
+        { "name": "Pink", "image": "Img/Variations/CHPink.jpg" },
+        { "name": "Gray", "image": "Img/ChromeHearts1.jpg" }
+      ],
+      "images": [
+        "Img/Previews/ChromeHeartsPreview.png"
+      ],
+      "gallery": [
+        "Img/ChromeHearts1.jpg",
+        "Img/ChromeHearts2.jpg",
+        "Img/ChromeHearts3.jpg"
+      ]
+  },
+    {
+      "id": 7,
+      "name": "Balenciaga Track",
+      "price": "700 zł",
+      "category": "Shoes",
+      "available": false,
+      "sizes": ["35", "36", "37", "38","39", "40", "41", "42","43", "44", "45"],
+      "has_variations": true,
+      "variations": [
+        { "name": "Black", "image": "https://i.postimg.cc/7hVYrSbY/image.png" },
+        { "name": "Gray", "image": "https://i.postimg.cc/FHqFvrFb/image.png" },
+        { "name": "Black Graffiti", "image": "https://i.postimg.cc/gJyG33VV/image.png" },
+        { "name": "Black and Pink", "image": "https://i.postimg.cc/y8JBvMhx/image.png" },
+        { "name": "Mint Green", "image": "https://i.postimg.cc/j5cGsc6z/image.png" },
+        { "name": "White", "image": "https://i.postimg.cc/CLzWgjRX/image.png" },
+        { "name": "Purple", "image": "https://i.postimg.cc/vZnk1bLt/wdseller1921579797-24fa00000195b1b01bab0a2395a3-1284-1284.jpg" },
+        { "name": "Black and White", "image": "https://i.postimg.cc/YSfP3RP2/image.png" },
+        { "name": "White Gray", "image": "https://i.postimg.cc/gJgT9Jdq/image.png" },
+        { "name": "Pure Black", "image": "https://i.postimg.cc/tCZmfpc2/image.png" },
+        { "name": "Brown", "image": "https://i.postimg.cc/PfcS10qz/image.png" },
+        { "name": "Dark Gray", "image": "https://i.postimg.cc/pLQkbTJc/image.png" },
+        { "name": "Light Gray", "image": "https://i.postimg.cc/SKDrRv57/image.png" },
+        { "name": "Sky Blue", "image": "https://i.postimg.cc/pTrBFBMM/image.png" },
+        { "name": "White Graffiti", "image": "https://i.postimg.cc/Kjgr9vYn/image.png" },
+        { "name": "Full Graffiti", "image": "https://i.postimg.cc/fyXqVvmG/image.png" },
+        { "name": "Pink", "image": "https://i.postimg.cc/wT8bSSYn/image.png" },
+        { "name": "MultiColor", "image": "https://i.postimg.cc/cLdkJwCq/image.png" },
+        { "name": "Black Silver", "image": "https://i.postimg.cc/1ztWGSDL/image.png" }
+      ],
+      "images": [
+        "Img/Previews/BalenciagaTrackPreview.png"
+      ],
+      "gallery": [
+        "Img/Track1.jpg",
+        "Img/Track2.jpg",
+        "Img/Track3.jpg"
+      ]
+  },
+  {
+      "id": 8,
+      "name": "Supreme x True Religion",
+      "price": "450 zł",
+      "category": "Up",
+      "available": false,
+      "sizes": ["S", "M", "L", "XL"],
+      "has_variations": true,
+      "variations": [
+        { "name": "Black", "image": "Img/Variations/SxTBlack.jpg" },
+        { "name": "Purple", "image": "Img/Variations/SxTPurple.jpg" }
+      ],
+      "images": [
+        "Img/Previews/SupremeXTruePreview.png"
+      ],
+      "gallery": [
+        "Img/SupremeXTrue1.jpg",
+        "Img/SupremeXTrue2.jpg",
+        "Img/SupremeXTrue3.jpg"
+      ]
+  },
+    {
+      "id": 9,
+      "name": "PeaceInWar Sweden",
+      "price": "200 zł",
+      "category": "Up",
+      "available": false,
+      "sizes": ["S", "M", "L", "XL"],
+      "has_variations": false,
+      "Discount": true,
+      "OldPrice": "400 zł",
+      "images": [
+        "Img/Previews/PeaceInWarPreview.png"
+      ],
+      "gallery": [
+        "Img/PeaceInWar1.jpg",
+        "Img/PeaceInWar2.jpg",
+        "Img/PeaceInWar3.jpg"
+      ]
+  },
+      {
+      "id": 10,
+      "name": "Sematary Merch [REPRINT]",
+      "price": "150 zł",
+      "category": "Up",
+      "available": false,
+      "sizes": ["S", "M", "L", "XL","2XL","3XL"],
+      "has_variations": false,
+      "images": [
+        "Img/Previews/SemataryMerchPreview.png"
+      ],
+      "gallery": [
+        "Img/SemataryMerch1.jpg",
+        "Img/SemataryMerch2.jpg",
+        "Img/SemataryMerch3.jpg"
+      ]
+  },
+        {
+      "id": 11,
+      "name": "UnderCover 06Ss",
+      "price": "200 zł",
+      "category": "Up",
+      "available": false,
+      "sizes": ["1 [M]", "2 [L]", "3 [XL]"],
+      "has_variations": false,
+      "Discount": true,
+      "OldPrice": "399 zł",
+      "images": [
+        "Img/Previews/UnderCoverPreview.png"
+      ],
+      "gallery": [
+        "Img/UnderCover1.jpg",
+        "Img/UnderCover2.jpg",
+        "Img/UnderCover3.jpg"
+      ]
+    }
+]

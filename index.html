@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANTÉ | Premium Apparel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ambient-light light-1"></div>
+    <div class="ambient-light light-2"></div>
+
+    <header>
+        <div class="logo">VANTÉ</div>
+    </header>
+
+    <main>
+        <div class="toolbar">
+            <div class="search-sort-container">
+                
+                <div class="search-block">
+                    <input type="text" id="search-input" placeholder="Поиск товара...">
+                </div>
+
+                <div class="custom-dropdown" id="sort-dropdown">
+                    <button class="dropdown-trigger">
+                        <span class="curr-sort-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </span>
+                        <span class="curr-sort-text">Сначала новые</span>
+                        <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item active" data-sort="newest">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <span>Сначала новые</span>
+                        </li>
+                        <li class="dropdown-item" data-sort="oldest">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l-4 2"/></svg>
+                            <span>Сначала старые</span>
+                        </li>
+                        <li class="dropdown-item" data-sort="price-asc">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V4M5 13l7-7 7 7"/></svg>
+                            <span>Цена: по возрастанию</span>
+                        </li>
+                        <li class="dropdown-item" data-sort="price-desc">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16m-7-7l7 7 7-7"/></svg>
+                            <span>Цена: по убыванию</span>
+                        </li>
+                        <li class="dropdown-item" data-sort="discount">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82zM7 7h.01"/></svg>
+                            <span>Только со скидкой</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="filters" id="filters-container">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="Up">Верх</button>
+                <button class="filter-btn" data-filter="Down">Низ</button>
+                <button class="filter-btn" data-filter="Shoes">Обувь</button>
+            </div>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+            </div>
+    </main>
+
+    <footer>
+        <p>© 2026 VANTÉ. Все права защищены.</p>
+    </footer>
+
+    <div id="product-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-body-left"></div>
+            <div class="modal-body-right"></div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightbox-img" src="" alt="Fullscreen">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
